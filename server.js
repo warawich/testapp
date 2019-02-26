@@ -9,7 +9,7 @@ const express = require('express');
 // App
  const app = express();
  app.get('/', (req, res) => {
-   res.send('Hello world friend\n');
+   res.send('Hello world friend Git\n');
    });
 
    app.listen(PORT, HOST);
